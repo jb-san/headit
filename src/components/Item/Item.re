@@ -5,5 +5,7 @@ let make = (~checked, ~header, ~value, ~comment, ~onChange, ~parity) => {
     <ItemInput onChange={_ => ()} value=header placeholder="Header" parity />
     <ItemInput onChange={_ => ()} value placeholder="Value" parity />
     <ItemInput onChange={_ => ()} value=comment placeholder="Comment" parity />
+    <ItemEdit parity />
+    <ItemRemove parity />
   </>;
 };

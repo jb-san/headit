@@ -11,7 +11,7 @@ function App(Props) {
   return React.createElement("div", {
               className: "",
               style: {
-                width: "500px"
+                width: "700px"
               }
             }, React.createElement(Header$ReasonReactExamples.make, {
                   setSearch: match[1],

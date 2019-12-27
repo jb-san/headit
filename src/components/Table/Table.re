@@ -2,22 +2,24 @@
 let make = () => {
   <>
     <div
-      className="border-t border-b border-gray-500 text-indigo-600"
+      className="border-t border-b border-gray-500 text-blue-600"
       style={ReactDOMRe.Style.make(
         ~display="grid",
-        ~gridTemplateColumns="32px 1fr 2fr 2fr",
+        ~gridTemplateColumns="3rem 1fr 2fr 2fr 3rem 3rem",
         (),
       )}>
       <TableHeader> {React.string("")} </TableHeader>
       <TableHeader> {React.string("Header")} </TableHeader>
       <TableHeader> {React.string("Value")} </TableHeader>
       <TableHeader> {React.string("Comment")} </TableHeader>
+      <TableHeader> {React.string("Edit")} </TableHeader>
+      <TableHeader> {React.string("")} </TableHeader>
     </div>
     <div
-      className="text-indigo-800 border-b  border-gray-500"
+      className="text-blue-800 border-b  border-gray-500"
       style={ReactDOMRe.Style.make(
         ~display="grid",
-        ~gridTemplateColumns="32px 1fr 2fr 2fr",
+        ~gridTemplateColumns="3rem 1fr 2fr 2fr  3rem 3rem",
         ~maxHeight="300px",
         ~overflowY="scroll",
         (),
