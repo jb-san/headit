@@ -3,7 +3,9 @@
 var React = require("react");
 
 function App(Props) {
-  return React.createElement("div", undefined, "hello");
+  return React.createElement("div", {
+              className: "bg-gray-300"
+            }, "hello");
 }
 
 var make = App;

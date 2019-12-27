@@ -4,6 +4,7 @@
   "scripts": {
     "build": "bsb -make-world",
     "build:bundle": "webpack",
+    "build:tailwind": "tailwind build tailwind.css -o index.css",
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
     "server": "moduleserve ./ --port 8000",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "bs-platform": "^6.2.1",
     "moduleserve": "^0.8.4",
+    "postcss": "^7.0.25",
     "tailwindcss": "^1.1.4",
     "web-ext": "^4.0.0",
     "webpack": "^4.41.4",
