@@ -6,7 +6,7 @@ let make = (~onChange, ~value, ~parity) => {
   switch (parity) {
   | "odd" =>
     <div
-      className="bg-gray-200 border-r border-gray-500 text-xs font-bold px-2 py-2">
+      className="bg-gray-200 border-r border-gray-500 text-xs font-bold px-2 py-4 flex items-center">
       <input
         className="w-full block bg-gray-200"
         type_="checkbox"
@@ -16,7 +16,7 @@ let make = (~onChange, ~value, ~parity) => {
     </div>
   | "even" =>
     <div
-      className="bg-gray-100 border-r border-gray-500 text-xs font-bold px-2 py-2">
+      className="bg-gray-100 border-r border-gray-500 text-xs font-bold px-2 py-4 flex items-center">
       <input
         className="w-full block bg-gray-100"
         type_="checkbox"
@@ -26,7 +26,7 @@ let make = (~onChange, ~value, ~parity) => {
     </div>
   | _ =>
     <div
-      className="bg-gray-200 border-r border-gray-500 text-xs font-bold px-2 py-2">
+      className="bg-gray-200 border-r border-gray-500 text-xs font-bold px-2 py-4 flex items-center">
       <input
         className="w-full block bg-gray-200"
         type_="checkbox"
