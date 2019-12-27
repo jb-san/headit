@@ -1,4 +1,9 @@
 [@react.component]
 let make = () => {
-    <div className={"bg-gray-300"}>{React.string("hello")}</div>
-}
+  let (searchValue, setSearch) = React.useState(() => "");
+
+  <div className="" style={ReactDOMRe.Style.make(~width="500px", ())}>
+    <Header setSearch searchValue />
+    <Table />
+  </div>;
+};
