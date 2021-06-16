@@ -26,7 +26,7 @@
   "devDependencies": {
     "bs-platform": "^6.2.1",
     "moduleserve": "^0.8.4",
-    "postcss": "^7.0.25",
+    "postcss": "^7.0.36",
     "tailwindcss": "^1.1.4",
     "web-ext": "^4.0.0",
     "webpack": "^4.41.4",
